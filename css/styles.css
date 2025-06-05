@@ -243,9 +243,6 @@ input {
   align-items: center;
 }
 
-/* .hero .container {
-} */
-
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -274,9 +271,6 @@ input {
   width: 169px;
   height: 56px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    width 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    font-weight 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .hero-btn:hover,
@@ -295,9 +289,6 @@ input {
 /* #endregion section 'hero' */
 
 /* #region section 'About' */
-/* .about {
-} */
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -332,15 +323,9 @@ input {
   height: 112px;
 }
 
-/* .about-icons {
-  margin: 24px auto;
-} */
-
 .about-subtitle {
   margin-bottom: 8px;
 }
-/* .about-text {
-} */
 /* #endregion section 'About' */
 
 /* #region section Our Team */
@@ -364,15 +349,11 @@ input {
   justify-content: center;
   flex-direction: column;
   border-radius: 0 0 4px 4px;
-  /* padding: 0px 0px 32px 0px; */
   width: calc((100% - 24px * 3) / 4);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
-
-/* .team-img {
-} */
 
 .team-member-info {
   display: flex;
@@ -400,19 +381,13 @@ input {
   margin: 0 auto;
 }
 
-/* .social-item {
-} */
-
 .team-member-info .social-link:hover,
 .team-member-info .social-link:focus {
   background-color: #404bbf;
 }
-
 /* #endregion section Our Team */
 
 /* #region section Portfolio===*/
-/* .portfolio {
-} */
 .portfolio-title {
   margin: 0 auto 72px;
 }
@@ -547,7 +522,6 @@ input {
 
 .footer-form-label {
   display: flex;
-  /* gap: 24px; */
 }
 
 .footer-input {
@@ -586,10 +560,8 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex-direction: row; */
   gap: 16px;
   border-radius: 4px;
-  /* padding: 8px 24px; */
   min-width: 165px;
   height: 40px;
   font-weight: 500;
@@ -599,7 +571,6 @@ input {
   /* text-align: center; */
   color: #fff;
   background: #4d5ae5;
-  /* margin: 0 auto; */
   cursor: pointer;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -607,8 +578,6 @@ input {
 }
 
 .footer-btn-icon {
-  /* width: 24px;
-  height: 24px; */
   fill: #fff;
   margin-left: 16px;
 }
@@ -826,7 +795,7 @@ input {
 }
 
 .modal-checkbox-label {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   font-weight: 400;
