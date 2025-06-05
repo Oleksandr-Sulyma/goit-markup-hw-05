@@ -535,9 +535,91 @@ input {
   background-color: #31d0aa;
 }
 
+.footer-form {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer-form-box {
   display: flex;
   
+}
+
+.footer-input {
+  border: 1px solid #fff;
+border-radius: 4px;
+max-width: 264px;
+height: 40px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background-color: transparent;
+font-weight: 400;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #fff;
+margin-right: 24px;
+padding: 8px 18px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-input::placeholder {
+  font-weight: 400;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #fff;
+opacity: 1;
+}
+
+.footer-input:hover,
+.footer-input:focus {
+  background-color: #31d0aa;
+}
+
+
+.footer-btn {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 16px;
+border-radius: 4px;
+padding: 8px 24px;
+width: 165px;
+height: 40px;
+ background: #4d5ae5;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-btn-text {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+text-align: center;
+color: #fff;
+}
+
+.footer-btn-icon {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background-color: #31d0aa;
+  transform: scale(1.01);
+  font-weight: 600;
+}
+
+.footer-btn:active {
+  background-color: #31d0aa;
 }
 
 /* #endregion footer */
@@ -649,7 +731,6 @@ input {
   flex-direction: column;
   width: 100%;
   gap: 8px;
-  d;
 }
 
 .modal-input-box {
@@ -781,7 +862,7 @@ position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  fill: #2e2f42;
+  /* fill: #2e2f42; */
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;
 }
@@ -832,5 +913,7 @@ color: #4d5ae5;
 .modal-btn:active {
   background-color: #404bbf;
 }
+
+
 
 /* #endregion Backdrop */
